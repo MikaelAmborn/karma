@@ -1,0 +1,11 @@
+{
+  "name": "karma",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "pg-promise": "^8.4.4"
+  }
+}

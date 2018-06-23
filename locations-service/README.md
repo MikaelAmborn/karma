@@ -1,6 +1,5 @@
 TODO:
 * Test with jest
-* Create controller 
-* Validate input with express-validator
-* Add linting
+* Validate api request input with express-validator
+* Add eslint
 * Switch to TypeScript

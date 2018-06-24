@@ -12,6 +12,7 @@ It takes a json on the format `{"name": <location-name>}`, it
 * Calls the location service to create a location.
 * Saves the created location id in it's own databse together with the user id for the testuser.
 ## Running
+Copy the `.env.example` files in `user-service` and `locations-service` to `.env` and enter a correct connection string in them.
 Start each server by running `yarn start` in the `locations-service` and `user-service` subdirectories.
 You can then invoke the user service endpoint with for example the following curl command:
 `curl -X POST -d '{"name": "Borgby"} localhost:3001/locations`
